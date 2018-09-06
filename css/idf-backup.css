@@ -1,0 +1,437 @@
+#sandbox_inc {
+    display: block !important;
+    height: 1390px !important;
+}	
+
+.idf-box{
+		width: 425px;
+		float: left;
+		display: inline-block;
+		margin-right: 10px;
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.idf-img{
+		width:50%;
+		margin: 0 0 10px 0;
+	}
+
+	.verify-img{
+		width:50%;
+		margin: 0 0 10px 0;
+	}
+
+
+	.help-img{
+		width: 100%;
+	}
+	
+	.idf-h5{
+		font-size: 16px;
+		text-align: center;
+		margin: 10px 0;
+	}
+	.idf-btn{
+	    border-radius: 5px;
+	    font-size: 16px;
+	    background: #CE284E none repeat scroll 0% 0%;
+	    padding: 15px 25px;
+	    text-decoration: none;
+	    color: #FFF;
+    	margin: 20px auto 0 auto;
+	    cursor: pointer;
+	    width: 50%;
+	}
+	
+	.idf-btn-text{
+		text-decoration: none !important;
+		color: #FFF !important;
+		font-size: 14px;
+	}
+	
+	.idf-btn:hover{
+  		background:#c20f3b;
+	}
+	
+	.idf-btn-text:hover{
+		color: #FFF;
+	}
+	
+	.wrapper{
+	 width: 940px;
+	 margin: 0 auto;
+	 display: block;
+	}
+
+
+	.verify-wrapper{
+	 width: 940px;
+	 margin: 30px auto 0 auto;
+	 display: block;
+	}
+
+	.verify-btn-text{
+		color: #666;
+		text-decoration: none;
+		font-size: 14px;
+	}
+
+.verify-box{
+		width: 303px;
+		float: left;
+		display: inline-block;
+		margin-right: 10px;
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.idf-box+.last{
+	margin-bottom: 40px;
+	margin-left: 70px;
+	}
+
+	.verify-box+.last{
+	margin-bottom: 40px;
+	}
+
+	
+	.idf-p{
+	text-align: center;
+	padding: 0 60px;
+	}
+
+	.verify-p{
+	text-align: center;
+	padding: 0 20px;
+	margin: 0 0 10px 0;
+	}	
+
+	.help-p{
+		text-align: center;
+	}
+	
+	.idf-border{
+	    background: #105cad;
+		width: 100%;
+		height: 95px;
+		clear: both;
+		display: block;
+		padding: 20px 0;
+	}
+	.idf-border-btn{
+		border-radius: 5px;
+		font-size: 16px;
+		background: #CE284E none repeat scroll 0% 0%;
+		padding: 15px 25px;
+		text-decoration: none;
+		color: #FFF;
+		margin-top: 5px;
+		float: right;
+		cursor: pointer;
+	}
+	.idf-border-btn:hover{
+		background: 
+	}
+	.idf-border-h6{
+		color: #FFF;
+		font-size: 22px;
+		margin: 0 0 15px 0;
+	}
+	.idf-border-p{
+		color: #FFF !important;
+		font-size:14px;
+	}
+	.wrapper-border{
+	 width: 640px;
+	 margin: 0 auto;
+	 display: block;
+	 height: 75px;
+	}
+	
+	.wrapper-help-bg{
+		background: #eee;
+		clear:both;
+		display:block;
+		height: 440px;
+		padding: 35px 0 0 0;
+	}
+	
+	.wrapper-help{
+	 width: 940px;
+	 margin: 0 auto;
+	 display: block;
+	 clear: both;
+	 background: #eee;
+	}
+	
+	.idf-border-text{
+		float: left;
+	}
+	
+	.can-help-h6{
+		text-align: center;
+		font-size: 24px;
+		margin: 0 auto;
+	}
+	
+	.help-box{
+		width: 225px;
+		float: left;
+		display: inline-block;
+		margin-right: 10px;
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.help-h6{
+	    font-size: 15px;
+		margin: 15px 0;
+    line-height: 20px;
+		
+	}
+	
+	ul.idf-ul{
+	    padding: 20px 0;
+		line-height: 15px;
+	}
+	
+	ul li.redlist a{
+	background: url(/global-images/marker_red_8x8.gif) left 5px no-repeat !important; 
+	padding-left: 15px; 
+	clear:left; 
+	zoom: 1; 
+	text-decoration:none;
+	    margin-left: 13px;
+	}
+	
+	
+a.help-link{
+	text-decoration: none;
+    line-height: 30px;
+}
+
+.marginBot20 {
+	margin-bottom: 0px !important;
+}
+
+.clearLeft{
+	display: none !important;
+}
+
+
+/***********************************************
+Screen Smaller than 1199px
+***********************************************/
+@media only screen and (min-width:960px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/***********************************************
+Tablet (Smaller than 959px)
+***********************************************/
+@media only screen and (min-width:768px) and (max-width: 959px) {
+
+	.wrapper{
+		width: 100%;
+	}
+	
+	.idf-box {
+        width: 48%;
+	}
+
+	.idf-box+.last{
+	margin-bottom: 40px;
+	margin-left: 0px;
+	}	
+	
+	.wrapper-help {
+    width: 100%;
+}
+
+.help-box {
+width: 180px;
+    margin: 30px 5px 0 5px;
+}
+
+#sandbox_inc{
+    height: 1220px !important;
+}
+
+.help-h6 {
+    font-size: 14px;
+	}
+	
+	.idf-p{
+	    font-size: 14px;
+    padding: 0 30px;	    
+	}
+	
+	.wrapper-help-bg{
+	    height: 365px;
+	}
+
+	.verify-box{
+		width: 26%;
+	}
+
+}	
+/***********************************************
+Mobile (portrait 300px)
+***********************************************/
+@media only screen and (max-width:767px) {
+	#logo{
+	width: auto;
+	}
+	
+	.wrapper, .wrapper-help{
+	width: 100%;}
+
+	.idf-box{
+		float: none;
+		display: block;
+		width: auto;
+		margin: 30px 10px 0 10px;
+	}
+	
+	.help-box{
+		float: none;
+		display: block;
+		width: auto;
+		margin: 30px 10px 0 10px;
+		clear:both;
+	}
+	.can-help-h6 {
+		text-align: center;
+	}
+	.idf-border-h6, .idf-border-p{
+		text-align: center;
+		margin: 15px 0 15px 0;
+	}
+	
+	.wrapper-border {
+		width: 100%;
+		height: auto;
+	}
+	
+	.idf-border-text {
+		float: none;
+	}
+	
+	.idf-box1{
+		margin-top: 110px;
+	}
+
+	
+	.wrapper-help-bg{
+		    margin: 75px 0 0 0;
+		    height: auto;
+	}
+
+	.verify-wrapper{
+		height: auto;
+		display: block;
+		width: 100%;
+	}
+	
+	.idf-border-btn {
+	    float: none;
+		margin: 0 auto;
+		width: 45%;
+		text-align: center;
+	}	
+	
+	.idf-border{
+		height: auto;
+		margin: 30px 0;
+		    padding: 20px 0 40px 0;
+	}
+	
+	.wrapper-help{
+	    padding: 0 0 35px 0;
+	}
+	
+	#sandbox_inc {
+    display: block !important;
+    height: auto !important;
+}	
+
+.idf-box+.last{
+	margin: 65px 0;
+}	
+	
+}
+
+/***********************************************
+iPhone 5 (Landscape)
+***********************************************/
+@media only screen and (max-width: 568px) {
+.verify-box {
+    width: 100%;
+    margin: 40px 0;
+    }	
+.space {
+    height: 60px !important;
+}    
+
+}
+
+/***********************************************
+iPhone 6 (Portrait)
+***********************************************/
+@media only screen and (max-width: 568px) {
+	.space {
+    height: 800px !important;
+}    
+}
+
+/***********************************************
+iPhone 6 (Landscape)
+***********************************************/
+@media only screen and (max-width: 667px) {
+.verify-box {
+    width: 100%;
+}
+	.space {
+    height: 100px !important;
+}  
+}
+
+
+/***********************************************
+iPhone 6 Plus (Portrait)
+***********************************************/
+@media only screen and (max-width: 414px) {
+.idf-box{
+	width: 100%;
+	clear:both;
+}
+	.space {
+    height: 800px !important;
+}    
+}
+
+/***********************************************
+iPhone 6 Plus (Landscape)
+***********************************************/
+@media only screen and (max-width: 736px) {
+.idf-box{
+	width: 100%;
+	clear:both;
+}
+	.space {
+    height: 80px !important;
+}    
+.verify-box{
+	width: 100%;
+	margin:40px 0;
+}
+}
+
+
+
+
+

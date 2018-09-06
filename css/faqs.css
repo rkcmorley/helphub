@@ -1,0 +1,168 @@
+#test-browser-content {
+    max-width:980px;
+}
+#test-browser-content.faq .all_faqs li div {
+    display:none;
+    background: #FFFFFF;
+    padding: 2%;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#test-browser-content.faq .all_faqs li p {
+	float:none!important;
+	margin:initial!important;
+}
+#test-browser-content.faq h1 {
+    font-size:32px!important;
+    line-height:32px!important;
+    margin:20px 0 0!important;
+    text-align: left!important;
+}
+#test-browser-content.faq h2 {
+    font-size: 28px!important;
+    line-height: 28px!important;
+    margin: 30px 0!important;
+    text-align: left!important;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+#test-browser-content.faq h3 {
+    font-size: 21px!important;
+    line-height: 21px!important;
+    margin: 5px 0!important;
+    text-align: left!important;
+    cursor: pointer;
+    color: #FFFFFF!important;
+    font-weight: 500;
+}
+#test-browser-content.faq h4 {
+    font-size:22px!important;
+    line-height:22px!important;
+    margin:0!important;
+    text-align: left!important;
+    float:left;
+    width:100%;
+}
+#test-browser-content.faq h5 {
+    font-size:18px!important;
+    line-height:18px!important;
+    margin:0!important;
+    text-align: left!important;
+    float:left;
+    width:100%;
+}
+#test-browser-content.faq p {
+    font-size:18px!important;
+    line-height:18px!important;
+    margin:21px 0!important;
+    text-align: left!important;
+    float: left;
+    width: 100%;
+}
+#test-browser-content.faq a:hover h4 {
+    background:#F4F4F4;
+}
+
+.all_faqs{
+    float:left;
+    position:relative;
+    width:100%;
+	box-sizing:border-box;
+}
+.all_faqs i {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 20px 0;
+    float: left;
+    position: relative;
+    color: #666;
+}
+#test-browser-content.faq > .all_faqs li {
+    float:left;
+    width:100%;
+    position:relative;
+}
+#test-browser-content.faq > .all_faqs > li {
+    padding: 2px 15px!important;
+    margin: 5px 0!important;
+    background: #00A5D9!important
+}
+#test-browser-content.faq > .all_faqs li,
+#faqs_links li {
+    list-style-type: decimal!important;
+    font-size: 30px;
+    margin-left:0px!important;
+    line-height: 30px!important;
+    width:100%;
+    box-sizing: border-box;
+}
+#test-browser-content.faq > .all_faqs > li h4 {
+    margin: 20px 0 10px!important;
+}
+#test-browser-content.faq > .all_faqs > li ul {
+    float: left;
+    position: relative;
+    width: 93%;
+    padding-left: 7%;
+}
+#test-browser-content.faq > .all_faqs > li ul li {
+    list-style-type: upper-latin!important;
+    font-size: 18px;
+    line-height: 18px!important;
+    margin: 10px 0 20px;
+}
+#test-browser-content.faq > .all_faqs > li ul li li {
+    margin:15px 0 0;
+}
+#test-browser-content.faq > .all_faqs > li ul li a {
+    float:left;
+    width:100%;
+    position:relative;
+}
+#test-browser-content.faq > .all_faqs > li ul li ul li {
+    list-style-type: disc!important;
+}
+#test-browser-content.faq table {
+    float:left;
+    position:relative;
+    width:100%;
+    background:#434343;
+    font-size:20px;
+    line-height: 22px;
+    padding:20px;
+    color:#FFF;
+}
+#test-browser-content.faq table tr {
+    width:100%;
+}
+#test-browser-content.faq table td {
+    padding: 20px;
+    border: 1px solid;
+}
+#test-browser-content.faq table td:first-child {
+    background: #00A5D9;
+    color:#FFF;
+}
+#test-browser-content.faq table th {
+    padding:20px;
+    color: #00A5D9;
+    background: #FFF;
+}
+#test-browser-content img{
+	float:left;
+	width:100%;
+	position:relative;
+	margin: 10px 0 20px 0; 
+}
+
+@media screen and (max-width:1280px) {
+	#test-browser-content {
+		max-width:870px;
+	}
+}

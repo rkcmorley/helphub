@@ -1,0 +1,327 @@
+#test-browser-content.faq p {
+    line-height: 25px !important;
+    font-size: 14px !important;
+    margin: 5px 0!important;    
+}
+
+#test-browser-content.faq h1{
+	text-align: left !important;
+    font-size: 30px !important;
+    margin: 0px 0px 20px 0px !important;
+    color: #0072c6 !important;
+    font-weight: normal !important;
+}
+
+.link{
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+#list{
+	visibility: visible;
+}
+
+.steps-header{
+	    font-size: 20px !important;
+    color: #00a5d9!important;
+    text-align: left !important;
+    line-height: 28px;
+}
+
+.link-button{
+	    float: left;
+    position: relative;
+    appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    min-width: 180px;
+    margin: 10px 0 0;
+    padding: 13px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    background: #015cad !important;
+    color: #FFF !important;
+    box-shadow: 1px 1px 1px #000;
+    border: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+        border-radius: 5px;
+    width: 100%;
+}
+
+.link-button a{
+	font-weight: bold !important;
+}
+
+/*Help Hub*/
+#content h1{
+	text-align: left !important;
+    font-size: 30px !important;
+    margin: 0px 0px 20px 0px !important;
+    color: #0072c6 !important;
+    font-weight: normal !important;	
+    line-height: 35px !important;
+}
+
+.sha2-header{
+	font-size: 14px !important;
+    color: #00a5d9!important;
+    margin: 0 0 0 0 !important;
+}
+
+.header-1{
+	padding: 0 0 0 0 !important;
+}
+
+.header-2{
+	    padding: 40px 0 0 0 !important;
+}
+
+.sha2-p-1{
+	margin: 0 0 20px 0 !important;
+}
+
+.sha2-extra-info{
+    margin: 75% 0 0 0 !important;
+	font-style: italic;
+    color: #0072c6 !important;	
+}
+#details-content ul li {
+    margin: 10px 0 27px 0px;
+    font-size: 14px !important;
+}
+
+.red-btn{
+	width: auto;
+	padding: 17px;
+}
+
+#test-it2{
+	font-size: 14px;
+	box-shadow: none;
+	border-radius: 5px;
+	width:100%;
+	font-weight: bold;
+}
+
+#test-it2 a:hover{
+	text-decoration: none;
+}
+
+#test-it2:hover{
+	background: #536b2a;
+}
+
+#sha2-validator label{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#sha2-validator input{
+	background: #FFF;
+    border: 1px solid #d1d1d1;
+    font-size: 14px;	
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+#check-it {
+		font-size: 14px;
+	box-shadow: none;
+	border-radius: 5px;
+	width:100%;
+	font-weight: bold;
+}
+
+.yes, #test-it, #test-it2, #yes2, #yes3, #next, #check-it, .no, #no2, #no3{
+	font-size: 18px;
+	box-shadow: none;
+	padding: 13px;
+}
+
+#test-it2{
+	font-size: 14px !important;
+}
+
+.yes, #test-it, #test-it2, #yes2, #yes3, #next, #check-it{
+	background: #015cad !important;
+}
+
+.click-yes{
+	padding: 20px 0 0 0 !important;
+	font-style: italic;
+}
+
+.sha2-extra-info1{
+    margin: 134% 0 0 0 !important;
+	font-style: italic;
+    color: #0072c6 !important;	
+}
+
+.sha2-extra-info2{
+	margin: 0 0 0 0 !important;
+	font-style: italic;
+    color: #0072c6 !important;	
+}
+
+/*end of Help Hub*/
+
+/*Contact Us*/
+.detail-right{
+	float:left; 
+	margin-left: 14px;
+}
+
+.detail-left{
+	float:left; 
+}
+
+.extra-info-box{
+	max-width:980px; 
+	width:100%;
+	margin:0 auto;
+	height:100%;
+}
+
+.extra-info{
+	font-size:13px !important; 
+	font-style:italic !important; 
+	margin-bottom: 30px !important;
+}
+/*End of Contact Us*/
+
+/*UAT Testing/Troubleshoot*/
+td{
+	font-size:14px !important;
+}
+#test-browser-content.faq table td {
+    border: 1px solid #CCC !important;
+    background: #FFF !important;
+    padding:0 !important; 
+    margin:0 !important;    
+    border-spacing: 0 !important;
+}
+
+#test-browser-content.faq table td > p{
+	color: #666 !important;
+	line-height: 0px !important;
+	padding: 20px;
+	font-size: 13px !important;
+}
+
+.upper-right{
+		-moz-border-radius-topright:5px !important;
+	-webkit-border-top-right-radius:5px !important;
+	border-top-right-radius:5px !important;
+	-moz-border-bottom:1px solid #FFF !important;
+	-webkit-border-bottom:1px solid #FFF !important;
+	border-bottom:1px solid #FFF !important;
+}
+
+.upper-left{
+		-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}
+
+.lower-right{
+		-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.lower-left{
+		-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+
+}
+
+table{
+	border-spacing: 0 !important;
+	border-collapse: separate !important;
+}
+
+#test-browser-content.faq table {
+    float: left;
+    position: relative;
+    width: 100% !important;
+    background: #FFF !important;
+    font-size: 13px !important; 
+    line-height: 0px !important;
+    padding: 0px !important;
+    color: #FFF !important;
+}
+/*End of UAT Testing/Troubleshoot*/
+
+
+/*Key Dates*/
+#content .editorcontent ul li.bluelist, #content ul li.bluelist {
+    background: url("../img/chevron_blue.png") no-repeat scroll left 5px transparent !important;
+    clear: left;
+    padding-left: 15px !important;
+    zoom: 1;
+}
+
+.first-list {
+margin: 0px 0 15px 0 !important;
+}
+
+.last-list {
+margin: 0 0 35px 0 !important;
+}
+/*End of Key Dates*/
+
+/*FAQ*/
+#test-browser-content.faq h2{
+	 font-size: 20px !important;
+    color: #00a5d9!important;
+	font-weight: normal;
+	border: none;
+	padding: 0;
+    margin: 30px 0 10px 0 !important;
+}
+
+.faq-p{
+	line-height: 0px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#test-browser-content.faq h3 {
+    font-size: 14px!important;
+    color: #666 !important;
+    font-weight: normal !important;
+    }
+
+#test-browser-content.faq > .all_faqs li, #faqs_links li {
+    list-style-type: decimal!important;
+    font-size: 14px;
+}  
+
+#test-browser-content.faq > .all_faqs > li {
+    background: #efefef !important;
+    margin: 8px 0 !important;
+}  
+#test-browser-content.faq > .all_faqs > li ul li {
+    list-style-type: none !important;
+    font-size: 14px;
+    line-height: 0px;
+    margin: 5px 0 10px 0;
+}
+#test-browser-content.faq > .all_faqs > li ul {
+	padding-left: 0 !important;
+}
+
+.acc-header{
+	    color: #00a5d9!important;
+}
+/*end of FAQ*/
